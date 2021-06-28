@@ -1,9 +1,11 @@
 def Fibonachi_nubmer(n):
+    if n<0:
+        st='Exeption'
     a=0
     b=1
     if n==1:
         st='0'
-    else:
+    if n>1:
         st='0 1'
     for i in range(n-2):
         c=a+b
